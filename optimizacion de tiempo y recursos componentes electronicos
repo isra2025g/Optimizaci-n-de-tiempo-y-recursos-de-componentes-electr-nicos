@@ -179,6 +179,6 @@ void calcularTotales(char nombres[][CADENA], int *tiempos, int *recursos, int *d
     if(totalTiempo <= tiempoDisp && totalRecursos <= recursosDisp) {
         printf("LA FABRICA SI CUMPLE CON LA DEMANDA .\n");
     } else {
-        printf("LA FABRICA NI CUMPLE CON LA DEMANDA .\n");
+        printf("LA FABRICA NO CUMPLE CON LA DEMANDA .\n");
     }
 }
